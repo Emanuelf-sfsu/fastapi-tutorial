@@ -11,3 +11,9 @@ Activate Pipenv shell
 > python --version
 
 More information at https://pipenv-fork.readthedocs.io/en/latest/basics.html
+
+### Uvicorn Server
+To start server use: 
+>  uvicorn myapi:app --reload
+
+Copy the link provided, add /docs to use FastAPI's UI.
